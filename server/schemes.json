@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Ayushman Bharat PM-JAY",
+    "description": "World's largest health insurance scheme fully financed by the government.",
+    "coverage_inr": 500000,
+    "states": ["All"],
+    "eligible_if": {
+      "income_category": ["Low", "BPL"],
+      "occupational": ["Unorganized labor", "Casual workers"]
+    },
+    "procedures_covered": ["All major surgeries", "Knee replacement", "Cataract", "Cardiology"]
+  },
+  {
+    "name": "ESIC (Employees' State Insurance)",
+    "description": "Social security and health insurance scheme for Indian workers.",
+    "coverage_inr": 1000000,
+    "states": ["All"],
+    "eligible_if": {
+      "income_category": ["Salaried"],
+      "employment": ["ESIC Insured Person"]
+    },
+    "procedures_covered": ["All"]
+  },
+  {
+    "name": "Mahatma Jyotiba Phule Jan Arogya Yojana",
+    "description": "Maharashtra state government flagship health insurance scheme.",
+    "coverage_inr": 150000,
+    "states": ["Maharashtra"],
+    "eligible_if": {
+      "income_category": ["Low", "Middle", "BPL"],
+      "ration_card": ["Yellow", "Orange"]
+    },
+    "procedures_covered": ["Knee surgery", "Appendectomy", "Normal delivery", "Cataract"]
+  },
+  {
+    "name": "Dr. YSR Aarogyasri",
+    "description": "Andhra Pradesh state health scheme for below poverty line families.",
+    "coverage_inr": 500000,
+    "states": ["Andhra Pradesh"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["All major procedures"]
+  },
+  {
+    "name": "Aarogyasri (Telangana)",
+    "description": "Telangana state health insurance scheme covering major procedures.",
+    "coverage_inr": 500000,
+    "states": ["Telangana"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["All major surgeries", "Cardiac care", "Neurology"]
+  },
+  {
+    "name": "Chief Minister's Comprehensive Insurance Scheme (Tamil Nadu)",
+    "description": "Tamil Nadu government scheme providing free medical care to low-income families.",
+    "coverage_inr": 500000,
+    "states": ["Tamil Nadu"],
+    "eligible_if": {
+      "income_category": ["Low", "BPL"]
+    },
+    "procedures_covered": ["Cancer treatment", "Cardiac surgeries", "Ortho surgeries"]
+  },
+  {
+    "name": "Mukhyamantri Amrutum (MA) Yojana",
+    "description": "Gujarat health scheme for BPL and lower-middle-class families.",
+    "coverage_inr": 300000,
+    "states": ["Gujarat"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["Cardiac", "Cancer", "Neuro", "Burns", "Poly-trauma"]
+  },
+  {
+    "name": "Bhamashah Swasthya Bima Yojana",
+    "description": "Rajasthan state health insurance scheme for families below poverty line.",
+    "coverage_inr": 300000,
+    "states": ["Rajasthan"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["General surgery", "Orthopaedics", "Cardiology"]
+  },
+  {
+    "name": "Karunya Health Scheme (Kerala)",
+    "description": "Kerala scheme for financially backward patients with serious illness.",
+    "coverage_inr": 200000,
+    "states": ["Kerala"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["Cancer", "Cardiac", "Dialysis", "Organ transplant"]
+  },
+  {
+    "name": "West Bengal Health Scheme",
+    "description": "Provides cashless hospitalization to West Bengal state government employees.",
+    "coverage_inr": 200000,
+    "states": ["West Bengal"],
+    "eligible_if": {
+      "income_category": ["Salaried", "Low"]
+    },
+    "procedures_covered": ["All inpatient procedures"]
+  },
+  {
+    "name": "Arogya Karnataka Scheme",
+    "description": "Karnataka state's comprehensive health coverage scheme.",
+    "coverage_inr": 500000,
+    "states": ["Karnataka"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["All procedures at empanelled hospitals"]
+  },
+  {
+    "name": "Deen Dayal Upadhyay Antyodaya Upchar Yojana (MP)",
+    "description": "Madhya Pradesh scheme for free treatment at government hospitals.",
+    "coverage_inr": 200000,
+    "states": ["Madhya Pradesh"],
+    "eligible_if": {
+      "income_category": ["BPL", "Low"]
+    },
+    "procedures_covered": ["All procedures at government hospitals"]
+  }
+]

@@ -1,0 +1,5 @@
+.env
+server/.env
+medi.json
+**/__pycache__/
+*.pyc

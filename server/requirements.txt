@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+groq
+razorpay
+python-multipart
+python-dotenv
+pydantic
+numpy
